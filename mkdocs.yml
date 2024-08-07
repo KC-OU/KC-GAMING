@@ -4,11 +4,11 @@ repo_url: https://github.com/KC-OU/KC-Gaming-Encyclopedia
 repo_name: KC-OU/KC-Gaming-Encyclopedia
 
 # navigation
-
 nav:
   - Home: 'index.md'
-
-
+  - Bethesda:
+     - Fallout 4:
+           - Game Overview: 'Bethesda/Fallout4/Game-Overview.md'
 # Theme config
 theme:
     # Theme: https://squidfunk.github.io/mkdocs-material/
@@ -61,3 +61,4 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
+  # - neoteroi.cards
