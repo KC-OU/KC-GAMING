@@ -8,7 +8,15 @@ nav:
   - Home: 'index.md'
   - Bethesda:
      - Fallout 4:
+  # TODO: add my own content / images to the pages
            - Game Overview: 'Bethesda/Fallout4/Game-Overview.md'
+          
+           # TODO: Need to create the pages
+           - Stats:
+                - SPECIAL: 'Bethesda/Fallout4/Stats/SPECIAL.md'
+                - Perks: 'Bethesda/Fallout4/Stats/Perks.md'
+                - Companion: 'Bethesda/Fallout4/Stats/Companion.md'
+                - Combat: 'Bethesda/Fallout4/Stats/Combat.md'
 # Theme config
 theme:
     # Theme: https://squidfunk.github.io/mkdocs-material/
@@ -60,5 +68,5 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - md_in_html
+  - md_in_html 
   # - neoteroi.cards
